@@ -16,21 +16,18 @@
     <!-- Header Section -->
     <header class="">
         <nav class="w-11/12 mx-auto">
-            <div class="navbar bg-base-100 rounded-full">
-                <div class="flex-1">
+            <div class="p-2 bg-base-100 rounded-full">
+                <!-- <div class="flex-1">
                     <a class="btn btn-ghost normal-case text-xl">Holy Quran</a>
-                </div>
-                <div class="flex-none gap-2">
-                    <div class="form-control">
-                        <input id="search-input" type="text" placeholder="Search" class="input input-bordered" />
-                    </div>
+                </div> -->
+                <div class="flex justify-between gap-2">
                     <div class="dropdown dropdown-end">
                         <label tabindex="0" class="btn btn-ghost btn-circle avatar">
                             <div class="w-10 rounded-full">
                                 <img src="https://i.pinimg.com/736x/66/5a/dc/665adcd094fa62a63d6ed87d1fd8dd1f.jpg" />
                             </div>
                         </label>
-                        <ul tabindex="0"
+                        <!-- <ul tabindex="0"
                             class="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
                             <li>
                                 <a class="justify-between">
@@ -40,8 +37,14 @@
                             </li>
                             <li><a>Settings</a></li>
                             <li><a>Logout</a></li>
-                        </ul>
+                        </ul> -->
                     </div>
+
+                    <div class="form-control">
+                        <input id="search-input" type="text" placeholder="Search Surah Name"
+                            class="input input-bordered" />
+                    </div>
+
                 </div>
             </div>
         </nav>
@@ -50,7 +53,7 @@
     <main class="w-11/12 mx-auto mt-10">
         <section>
             <div class="">
-                <h1 class="text-3xl font-semibold text-center">Al Quran</h1>
+                <h1 class="text-3xl font-bold font-mono text-center text-success">Al Quran</h1>
             </div>
         </section>
 
